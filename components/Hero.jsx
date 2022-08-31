@@ -19,20 +19,22 @@ function Hero() {
 							ea vitae consequuntur, in nisi aliquam accusantium,
 							possimus exercitationem eveniet?
 						</p>
-						<Link href='#'>
-							<a className=' mt-[26px] flex items-center w-fit gap-2 px-[85px] py-[15px] bg-chromeYellow rounded-full justify-center cursor-pointer'>
-								<p className=' text-[18px] font-medium '>
-									Buy Tickets
-								</p>
-								<Image
-									src='/assets/hero/buyTicketsArrow.svg'
-									width='15'
-									height='15'
-									alt='Arrow'
-									priority
-								/>
-							</a>
-						</Link>
+						<div className='' >
+							<Link href='#' className=''>
+								<a className=' mt-[26px] flex items-center w-fit gap-2 px-[85px] py-[15px] bg-chromeYellow rounded-full justify-center '>
+									<p className=' text-[18px] font-medium '>
+										Buy Tickets
+									</p>
+									<Image
+										src='/assets/hero/buyTicketsArrow.svg'
+										width='15'
+										height='15'
+										alt='Arrow'
+										priority
+									/>
+								</a>
+							</Link>
+						</div>
 					</div>
 				</div>
 				<div className=' sm:absolute sm:top-[-80px] lg:top-0 sm:right-0  lg:absolute z-10 lg:bottom-[-130px] lg:right-[-180px] sm:w-[342px] sm:h-[432px] lg:w-[940px] lg:h-[832px]'>
