@@ -132,7 +132,7 @@ export default function Home() {
 			</Head>
 
 			<Hero />
-			<div className='h-[150px]'></div>
+			<div className='h-[72px]'></div>
 			<Schedule
 				table={table}
 				headings={headings}
