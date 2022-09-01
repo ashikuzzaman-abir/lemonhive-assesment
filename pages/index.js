@@ -65,7 +65,8 @@ export default function Home() {
 			});
 			return times;
 		};
-		const times = getAlltimes();
+		const times1 = getAlltimes();
+		const times = times1.sort()
 		setTimes(times);
 		// console.log(times)
 

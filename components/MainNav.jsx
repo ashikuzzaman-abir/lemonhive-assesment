@@ -20,7 +20,7 @@ function MainNav() {
 				</Link>
 				<div>
 					<ul className='sm:hidden lg:flex flex gap-12 text-[18px] font-medium text-darkBlue'>
-						<li className=' cursor-pointer'>About us</li>
+						<li data-testId='about-us' className=' cursor-pointer'>About us</li>
 						<li className=' cursor-pointer'>What we do</li>
 						<li className=' cursor-pointer'>Our work</li>
 						<li className=' cursor-pointer'>Blog</li>
