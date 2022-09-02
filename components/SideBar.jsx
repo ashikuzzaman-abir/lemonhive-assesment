@@ -44,7 +44,7 @@ function SideBar() {
       {resetServerContext()}
       <Droppable droppableId="drop-box-1">
         {(provided) => (
-          <div className="SideBar pt-8 select-none cursor-pointer sm:w-full lg:w-[365px]">
+          <div className="SideBar w-full sm:justify-center lg:justify-start pt-8 select-none cursor-pointer sm:w-full lg:w-[365px] ">
             <div {...provided.droppableProps} ref={provided.innerRef}>
               {menu.map((item, i) => {
                 return (
@@ -54,7 +54,7 @@ function SideBar() {
                         {...provider.draggableProps}
                         ref={provider.innerRef}
                         onClick={() => setActive(item)}
-                        className={`flex items-center max-w-[365px] h-[72px] p-2 gap-11 rounded-lg mb-8 ${
+                        className={`flex mx-auto lg:mx-0 items-center sm:w-[90vw] max-w-[365px] h-[72px] p-2 gap-11 rounded-lg mb-8 ${
                           item === active
                             ? " bg-chromeYellow custom-shadow"
                             : " bg-white border-solid border "

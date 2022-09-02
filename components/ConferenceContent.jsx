@@ -1,9 +1,13 @@
 import React from "react";
 import Image from "next/image";
 
-function ConferenceContent({ speakers }) {
+function ConferenceContent({ speakers, loading }) {
+  if(loading){
+    return <div className=" mt-12 w-fit text-h3 text-bold mx-auto">Loading...</div>;
+
+  }
   return (
-    <div className=" sm:w-full sm:h-auto lg:w-[904px] lg:h-[681px] rounded-lg   overflow-auto">
+    <div className=" sm:w-full sm:h-auto lg:w-[880px] lg:h-[620px] rounded-lg   overflow-auto">
       {speakers?.map((item, i) => {
         return (
           <div

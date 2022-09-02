@@ -73,7 +73,7 @@ function ConferencePage() {
       </Head>
       <div className=" max-w-[1320px] mx-auto">
         <div>
-          <div className=" h-[72px]"></div>
+          <div className=" sm:h-[32px] lg:h-[48px] "></div>
           <h2 className=" text-h2 font-bold text-darkblue">Conference info</h2>
           <p className=" mt-[16px] text-p font-regular text-shadowGrey">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi,
@@ -82,9 +82,12 @@ function ConferencePage() {
             quod alias reprehenderit autem exercitationem!
           </p>
           <div>
-            <div className="view-conference flex sm:gap-6 lg:gap-14 flex-wrap">
+            <div className="view-conference flex sm:gap-6 lg:gap-14 flex-wrap lg:mt-10">
               <SideBar />
-              <ConferenceContent speakers={data?.conference?.speakers} />
+              <ConferenceContent
+                speakers={data?.conference?.speakers}
+                loading={loading}
+              />
             </div>
           </div>
         </div>

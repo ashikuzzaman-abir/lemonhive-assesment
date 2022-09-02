@@ -6,7 +6,7 @@ function MainNav() {
 	return (
 		<div className=''>
 			<div
-				className={`mx-auto max-w-[1320px] flex justify-between items-center px-4 py-4`}
+				className={`relative z-50 mx-auto max-w-[1320px] flex justify-between items-center px-4 py-4`}
 			>
 				<Link href={`/`}>
 					<div className='relative sm:w-[55px] sm:h-[33px] lg:w-[135px] lg:h-[63px]  cursor-pointer'>

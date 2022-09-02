@@ -3,7 +3,7 @@ import ScheduleTable from "./ScheduleTable";
 
 function Schedule({ table, times, headings, loading }) {
 	return (
-		<div className='w-full'>
+		<div className='w-full' id="schedule">
 			<div className=' max-w-[1320px] mx-auto  p-4'>
 				<div>
 					<h1 className=' sm:text-[24px] lg:text-h2 font-bold text-darkB'>
@@ -16,7 +16,7 @@ function Schedule({ table, times, headings, loading }) {
 				</div>
 				<div className="sm:h-[35px] lg:h-[72px]"></div>
 				{table.length === 0 ? (
-					""
+					<div className=' text-h3 w-fit'>Loading...</div>
 				) : (
 					<ScheduleTable
 						table={table}

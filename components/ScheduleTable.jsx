@@ -3,7 +3,7 @@ import Link from "next/link";
 
 function ScheduleTable({ table, headings, times }) {
 	return (
-		<div className=' sm:w-[95vw] lg:w-fit overflow-auto'>
+		<div className=' sm:w-[95vw] lg:w-[100vw] overflow-auto'>
 			<div className='table sm:w-auto lg:w-fit border-[0.25px] rounded-xl'>
 				<div className='headings-rows flex w-ful l justify-between '>
 					<div className=' row-gap flex flex-1 h-[70px] max-w-[200px] justify-center items-center border-zinc-100 border-solid border-[1px] '></div>

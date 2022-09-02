@@ -3,7 +3,11 @@ const nextConfig = {
   reactStrictMode: false,
   swcMinify: true,
   images: {
-    domains: ["*", "api.react-finland.fi", "www.reason-conf.com"],
+    domains: [
+      "api.react-finland.fi",
+      "www.reason-conf.com",
+      "typeofconf.com",
+    ],
   },
 };
 
