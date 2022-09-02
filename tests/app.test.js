@@ -12,7 +12,7 @@ describe("App renders", () => {
   });
   it("reders the Hero", () => {
     render(<Hero />);
-    const hero = screen.getByText(/React Conference/i);
+    const hero = screen.getByText(/React/i);
     expect(hero).toBeVisible();
   });
 });
