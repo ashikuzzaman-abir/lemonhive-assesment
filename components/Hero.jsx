@@ -26,7 +26,7 @@ function Hero() {
             </h1>
           </div>
           <div className=" relative max-w-[515px] sm:ml-0 lg:ml-auto sm:flex sm:flex-col sm:items-center lg:block sm:p-6 sm:text-center">
-            <p className=" sm:mt-[28px] lg:mt-[35px] text-shadowGrey text-p sm:text-center lg:text-justify">
+            <p className=" sm:mt-[18px] lg:mt-[35px] text-shadowGrey text-p sm:text-center lg:text-justify">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt
               quas animi laudantium maiores quasi recusandae. Fugiat quia
               quibusdam aspernatur nihil ea vitae consequuntur, in nisi aliquam
