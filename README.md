@@ -103,7 +103,7 @@
 <br>
 <div id="sidebar">
   <h2>Sidebar with Drag and Drop</h2>
-  <img src="./docs/Sidebar.jpg" width="100%"/>
+  <img src="https://github.com/ashikuzzaman-abir/lemonhive-assesment/blob/master/docs/sidebar.gif" width="100%"/>
   <a href="./components/SideBar.jsx">
     <p align="center">
     Component Source Code: <b>/component/SideBar.jsx</b>
