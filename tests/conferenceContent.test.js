@@ -1,6 +1,6 @@
 import { render, screen } from "@testing-library/react";
-import ConferenceContent from "../components/ConferenceContent";
 import "@testing-library/jest-dom";
+import ConferenceContent from "../components/ConferenceContent";
 
 const mock = [
   {
