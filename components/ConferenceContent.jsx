@@ -7,7 +7,7 @@ function ConferenceContent({ speakers, loading }) {
 
   }
   return (
-    <div className=" sm:w-full sm:h-auto lg:w-[880px] lg:h-[620px] rounded-lg   overflow-auto">
+    <div className=" sm:w-full md:max-w-[700px]  sm:h-auto lg:min-w-[880px] lg:h-[620px] rounded-lg   overflow-auto">
       {speakers?.map((item, i) => {
         return (
           <div
@@ -16,7 +16,7 @@ function ConferenceContent({ speakers, loading }) {
           >
             <div className="relative sm:w-[88px] sm:h-[88px] lg:w-[140px] lg:h-[140px] rounded-lg ">
               <Image
-                src={item.image.url}
+                src={item?.image?.url}
                 className=" rounded-lg"
                 layout="fill"
                 loading="lazy"
@@ -30,12 +30,12 @@ function ConferenceContent({ speakers, loading }) {
                   {item.name}
                 </h3>
                 <h4 className=" sm:text-h5 sm:mt-2 lg:mt-0 lg:text-h4 font-medium sm:text-[#0045FF] lg:text-shadowGrey">
-                  {item.company || "Company Name"}
+                  {item?.company || "Company Name"}
                 </h4>
               </div>
               <div>
                 <p className=" sm:text-[12px] lg:text-p text-shadowGrey text-regular">
-                  {item.aboutShort}
+                  {item?.aboutShort}
                 </p>
               </div>
             </div>

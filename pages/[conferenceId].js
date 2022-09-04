@@ -82,7 +82,7 @@ function ConferencePage() {
             quod alias reprehenderit autem exercitationem!
           </p>
           <div>
-            <div className="view-conference flex sm:gap-6 lg:gap-14 flex-wrap lg:mt-10">
+            <div className="view-conference flex sm:gap-6 lg:gap-14 sm:flex-wrap md:flex-nowrap lg:mt-10">
               <SideBar />
               <ConferenceContent
                 speakers={data?.conference?.speakers}
