@@ -19,6 +19,7 @@ function ConferenceContent({ speakers, loading }) {
                 src={item.image.url}
                 className=" rounded-lg"
                 layout="fill"
+                loading="lazy"
                 alt={item.name}
                 objectPosition="center"
               />
