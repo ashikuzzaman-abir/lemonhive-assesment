@@ -41,20 +41,24 @@
 <div id="#folder-Structure">
   <h2>Folder Structure</h2>
   <div style="display:flex; gap: 40px;">
-    <b style="font-size: 18px; min-width: 150px;">/components</b>
+    <b style="font-size: 18px; min-width: 120px;">/components</b>
     <p style="margin: auto 0;">Here I stored all the reusable components of the projects</p>
   </div>
   <div style="display:flex; gap: 40px;">
-    <b style="font-size: 18px; min-width: 150px;">/configs</b>
+    <b style="font-size: 18px; min-width: 120px;">/configs</b>
     <p style="margin: auto 0;">Here I stored configurations of the projects</p>
   </div>
   <div style="display:flex; gap: 40px;">
-    <b style="font-size: 18px; min-width: 150px;">/graphQL</b>
+    <b style="font-size: 18px; min-width: 120px;">/graphQL</b>
     <p style="margin: auto 0;">Here I stored graphql queries of the projects</p>
   </div>
   <div style="display:flex; gap: 40px;">
-    <b style="font-size: 18px; min-width: 150px;">/pages</b>
+    <b style="font-size: 18px; min-width: 120px;">/pages</b>
     <p style="margin: auto 0;">Here I stored web applications static and dynamic pages</p>
+  </div>
+  <div style="display:flex; gap: 40px;">
+    <b style="font-size: 18px; min-width: 120px;">/public</b>
+    <p style="margin: auto 0;">Here I stored all the static files such as pictures and svgs</p>
   </div>
 </div>
 <br>
