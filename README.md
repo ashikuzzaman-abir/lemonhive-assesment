@@ -65,36 +65,39 @@
 </ul>
 </div>
 <br>
+
 <div id="#folder-Structure">
   <h2>Folder Structure</h2>
-  <div style="display:flex; gap: 40px;">
-    <b style="font-size: 18px; min-width: 120px;">/components</b>
-    <p style="margin: auto 0;">Here I stored all the reusable components of the projects</p>
-  </div>
-  <div style="display:flex; gap: 40px;">
-    <b style="font-size: 18px; min-width: 120px;">/configs</b>
-    <p style="margin: auto 0;">Here I stored configurations of the projects</p>
-  </div>
-  <div style="display:flex; gap: 40px;">
-    <b style="font-size: 18px; min-width: 120px;">/graphQL</b>
-    <p style="margin: auto 0;">Here I stored graphql queries of the projects</p>
-  </div>
-  <div style="display:flex; gap: 40px;">
-    <b style="font-size: 18px; min-width: 120px;">/pages</b>
-    <p style="margin: auto 0;">Here I stored web applications static and dynamic pages</p>
-  </div>
-  <div style="display:flex; gap: 40px;">
-    <b style="font-size: 18px; min-width: 120px;">/public</b>
-    <p style="margin: auto 0;">Here I stored all the static files such as pictures and svgs</p>
-  </div>
-  <div style="display:flex; gap: 40px;">
-    <b style="font-size: 18px; min-width: 120px;">/styles</b>
-    <p style="margin: auto 0;">Here I stored CSS style sheet files of the project</p>
-  </div>
-  <div style="display:flex; gap: 40px;">
-    <b style="font-size: 18px; min-width: 120px;">/tests</b>
-    <p style="margin: auto 0;">Here I've written test files of the project</p>
-  </div>
+  <table>
+  <tr>
+    <td><b style="font-size: 18px">/components</b></td>
+    <td>Here I stored all the reusable components of the projects</td>
+  </tr>
+  <tr>
+    <td><b style="font-size: 18px">/configs</b></td>
+    <td>Here I stored configurations of the projects</td>
+  </tr>
+  <tr>
+    <td><b style="font-size: 18px">/graphQL</b></td>
+    <td>Here I stored GraphQL queries of the projects</td>
+  </tr>
+  <tr>
+    <td><b style="font-size: 18px">/pages</b></td>
+    <td>Here I stored web applications static and dynamic pages</td>
+  </tr>
+  <tr>
+    <td><b style="font-size: 18px">/public</b></td>
+    <td>Here I stored all the static files such as pictures and svgs</td>
+  </tr>
+  <tr>
+    <td><b style="font-size: 18px">/styles</b></td>
+    <td>Here I stored CSS style sheet files of the project</td>
+  </tr>
+  <tr>
+    <td><b style="font-size: 18px">/tests</b></td>
+    <td>Here I've written test files of the project</td>
+  </tr>
+</table>
 </div>
 <br>
 <div id="api-integration">
@@ -102,7 +105,7 @@
   GraphQL API Integration
   </h2>
   <p align="justify">
-    For graphql quering and data fetching I've choose the @apollo/client library.
+    For GraphQL querying and data fetching I've choose the @apollo/client library. I've wrapped my main <a href="./pages/_app.js">_app</a> component with ApolloProvider and pass client instance with URL of backend GraphQL API and InMemoryCache into it. ApolloProvider will provide this client to all the children components and pages of this webapp. With the Help of this provided client and useQuery hook of apollo I've fetched all the conferences data into <a href="./pages/index.js">index.js</a> page. I've also fetch each conference data into <a href="./pages/[conferenceId].js">[conferenceId].js</a> dynamic page and used these data to show speakers information on <a href="./components/ConferenceContent.jsx">ConferenceContent</a> Component.
   </p>
 </div>
 <br>
@@ -124,7 +127,7 @@
     </p>
   </a>
   <p align="justify">
-    This sidebar is implemented using the react-beautiful-dnd library. I've implemented custom logic to rearrange the navigation smoothly.
+    This sidebar is implemented using the react-beautiful-dnd library. I've implemented custom logic to rearrange the navigation smoothly. You can use drag and drop feature while grabbing each children most left icon and make it active by clicking on it
   </p>
 </div>
 <!-- <h1 id="drag-n-drop">Drag and Drop</h1> -->

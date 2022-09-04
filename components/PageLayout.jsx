@@ -4,7 +4,7 @@ import MainNav from './MainNav';
 function PageLayout({Component, pageProps}) {
   return (
 		<>  
-            <MainNav/>
+      <MainNav/>
 			<Component pageProps={pageProps} />
 		</>
   );
