@@ -138,6 +138,6 @@
 <div id="jest-error-solve">
   <h2>Solve Jest Error</h2>
   <img src="./docs/jestErrorSolve.jpg" width="100%"/>
-  <p align="justify">If "npm run test" fires these errors on terminal just goto /node_modules/parse5/ and open package.json file and delete line 3 which is "type": "module". Now re run "npm run test", it will resolve the error.</p>
+  <p align="justify">If "npm run test" fires these errors on terminal just goto <b>/node_modules/parse5/</b> and open <b>package.json</b> file and delete line 3 which is "type": "module". Now re run "npm run test", it will resolve the error.</p>
 </div>
 <!-- <h1 id="drag-n-drop">Drag and Drop</h1> -->
