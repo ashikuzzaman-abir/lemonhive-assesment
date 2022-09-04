@@ -94,6 +94,6 @@
 <br>
 <div id="schedule-table">
   <h2>Dynamic Schedule Table</h2>
-  <img src="./docs/ScheduleTable.jpg" width="600px"/>
+  <img src="./docs/ScheduleTable.jpg" width="100%"/>
 </div>
 <!-- <h1 id="drag-n-drop">Drag and Drop</h1> -->
