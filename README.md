@@ -44,7 +44,7 @@
     <li>Change terminal working directory into project directory</li>
     <li>Run "npm install" to install all the dependencies locally </li>
     <li>Run "npm run test" to turn on Jest test environment and view the test results</li>
-    <li>Run "npm run dev" to turn on Next.js development server</li>
+    <li>Run "npm run dev" to open Next.js development server on port 3000</li>
     <li>Open Mozila Firefox browser or Google Chrome browser and visit <a href="http://localhost:3000">http://localhost:3000</a></li>
     <li>I've already live hosted the project on Vercel, you can visit it here: <a href="https://lemonhive-assesment.vercel.app">https://lemonhive-assesment.vercel.app</a></li>
   </ul>
