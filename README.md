@@ -1,7 +1,7 @@
 <img src="https://media-exp1.licdn.com/dms/image/C561BAQForgdntuiGoQ/company-background_10000/0/1587974137322?e=2159024400&v=beta&t=Jj8LPMifZMdCYt_Z9M6k3bTOgcVdxwGjfyqdmHnqP5w" style="width: 100%;"> </img>
 
-<h1 style="text-align: center;">Lemon Hive React-NextJs-Graphql Assesment</h1>
-<p style="text-align: justify;">Welcome, here I've set up a project from scratch with create-next-app. My task was to implement a UI with core CSS or TailwindCSS, fetch data from GraphQL API and construct a dynamic schedule table using those data. when clicking on a schedule from schedule table it will route into a new page with additional information of a conference (Speaker details) and a sidebar which is rearrangeable by dragging and dropping! Every component is tested and mobile responsible.</p>
+<h1 align="center">Lemon Hive React-NextJs-Graphql Assesment</h1>
+<p style="text-align: justify;">Welcome, here I've set up a project from scratch with create-next-app. My task was to implement a UI with core CSS or TailwindCSS, fetch data from GraphQL API and construct a dynamic schedule table using those data. When a user clicks on a schedule from schedule table it will route into a new page with additional information of a conference (Speaker details) and a sidebar which is rearrangeable by dragging and dropping! Every component is tested and mobile responsible.</p>
 <p style=" color:orange">"Please read the <i><a style="color:orange; text-decoration: underline;" href="#instruction">instructions</a></i> first"</p>
 <br>
 <div>
@@ -13,11 +13,16 @@
   </a>
   </li>
   <li>
+    <a href="#technologies">
+    Technologies That I Have Used
+    </a>
+  </li>
+  <li>
     <a href="#folder-Structure">Folder Structure</a>
   </li>
   <li>
   <a href="#drag-n-drop">
-    drag-n-drop
+    Drag-n-drop
   </a>
   </li>
 </ul>
@@ -38,6 +43,21 @@
 </div>
 <br>
 <!-- <div style="height: 50vh;"></div> -->
+<div id="technologies">
+<h2>Technologies That I Have Used</h2>
+<ul>
+  <li>React.js</li>
+  <li>Next.js</li>
+  <li>TailwindCSS</li>
+  <li>GraphQL</li>
+  <li>Apollo Client</li>
+  <li>React-beautiful-dnd</li>
+  <li>Jest</li>
+  <li>@testing-library/react</li>
+
+</ul>
+</div>
+<br>
 <div id="#folder-Structure">
   <h2>Folder Structure</h2>
   <div style="display:flex; gap: 40px;">
@@ -59,6 +79,14 @@
   <div style="display:flex; gap: 40px;">
     <b style="font-size: 18px; min-width: 120px;">/public</b>
     <p style="margin: auto 0;">Here I stored all the static files such as pictures and svgs</p>
+  </div>
+  <div style="display:flex; gap: 40px;">
+    <b style="font-size: 18px; min-width: 120px;">/styles</b>
+    <p style="margin: auto 0;">Here I stored CSS style sheet files of the project</p>
+  </div>
+  <div style="display:flex; gap: 40px;">
+    <b style="font-size: 18px; min-width: 120px;">/tests</b>
+    <p style="margin: auto 0;">Here I've written test files of the project</p>
   </div>
 </div>
 <br>
