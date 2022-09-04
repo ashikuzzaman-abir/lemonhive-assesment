@@ -2,7 +2,7 @@
 
 <h1 align="center">Lemon Hive React-NextJs-Graphql Assesment</h1>
 <p align="justify">Welcome, here I've set up a project from scratch with create-next-app. My task was to implement a UI with core CSS or TailwindCSS, fetch data from GraphQL API and construct a dynamic schedule table using those data. When a user clicks on a schedule from schedule table it will route into a new page with additional information of a conference (Speaker details) and a sidebar which is rearrangeable by dragging and dropping! Every component is tested and mobile responsible.</p>
-<p style=" color:orange">"Please read the <i><a href="#instructions" style="color:orange; text-decoration: underline;">instructions</a></i> first"</p>
+<p style=" color:orange">"Note: Please read the <i><a href="#instructions" style="color:orange; text-decoration: underline;">instructions</a></i> first"</p>
 <br>
 <div>
 <h2>Table of Contents</h2>
