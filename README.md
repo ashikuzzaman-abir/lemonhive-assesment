@@ -21,6 +21,11 @@
     <a href="#folder-Structure">Folder Structure</a>
   </li>
   <li>
+  <a href="#api-integration">
+    GraphQL API Integration
+  </a>
+  </li>
+  <li>
     <a href="#schedule-table">Dynamic Schedule Table</a>
   </li>
   <li>
@@ -92,6 +97,15 @@
   </div>
 </div>
 <br>
+<div id="api-integration">
+  <h2>
+  GraphQL API Integration
+  </h2>
+  <p align="justify">
+    For graphql quering and data fetching I've choose the @apollo/client library.
+  </p>
+</div>
+<br>
 <div id="schedule-table">
   <h2>Dynamic Schedule Table</h2>
   <img src="./docs/ScheduleTable.jpg" width="100%"/>
@@ -110,7 +124,7 @@
     </p>
   </a>
   <p align="justify">
-    This sidebar is implemented using the react-beautiful-dnd library. 
+    This sidebar is implemented using the react-beautiful-dnd library. I've implemented custom logic to rearrange the navigation smoothly.
   </p>
 </div>
 <!-- <h1 id="drag-n-drop">Drag and Drop</h1> -->
