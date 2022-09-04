@@ -109,7 +109,7 @@
   GraphQL API Integration
   </h2>
   <p align="justify">
-    For GraphQL querying and data fetching I've choose the @apollo/client library. I've wrapped my main <a href="./pages/_app.js">_app</a> component with ApolloProvider and pass client instance with URL of backend GraphQL API and InMemoryCache into it. ApolloProvider will provide this client to all the children components and pages of this webapp. With the Help of this provided client and useQuery hook of apollo I've fetched all the conferences data into <a href="./pages/index.js">index.js</a> page. I've also fetch each conference data into <a href="./pages/[conferenceId].js">[conferenceId].js</a> dynamic page and used these data to show speakers information on <a href="./components/ConferenceContent.jsx">ConferenceContent</a> Component.
+    For GraphQL querying and data fetching I've choosen the @apollo/client library. I've wrapped my main <a href="./pages/_app.js">_app</a> component with ApolloProvider and pass client instance with URL of backend GraphQL API and InMemoryCache into it. ApolloProvider will provide this client to all the children components and pages of this webapp. With the Help of this provided client and useQuery hook of apollo I've fetched all the conferences data into <a href="./pages/index.js">index.js</a> page. I've also fetch each conference data into <a href="./pages/[conferenceId].js">[conferenceId].js</a> dynamic page and used these data to show speakers information on <a href="./components/ConferenceContent.jsx">ConferenceContent</a> Component.
   </p>
 </div>
 <br>
