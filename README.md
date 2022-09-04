@@ -21,6 +21,9 @@
     <a href="#folder-Structure">Folder Structure</a>
   </li>
   <li>
+    <a href="#schedule-table">Dynamic Schedule Table</a>
+  </li>
+  <li>
   <a href="#drag-n-drop">
     Drag-n-drop
   </a>
@@ -54,7 +57,6 @@
   <li>React-beautiful-dnd</li>
   <li>Jest</li>
   <li>@testing-library/react</li>
-
 </ul>
 </div>
 <br>
@@ -90,4 +92,8 @@
   </div>
 </div>
 <br>
+<div id="schedule-table">
+  <h2>Dynamic Schedule Table</h2>
+  <img src="./docs/ScheduleTable.jpg" width="600px"/>
+</div>
 <!-- <h1 id="drag-n-drop">Drag and Drop</h1> -->
