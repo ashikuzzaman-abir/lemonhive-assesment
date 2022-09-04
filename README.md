@@ -2,7 +2,7 @@
 
 <h1 align="center">Lemon Hive React-NextJs-Graphql Assesment</h1>
 <p align="justify">Welcome, here I've set up a project from scratch with create-next-app. My task was to implement a UI with core CSS or TailwindCSS, fetch data from GraphQL API and construct a dynamic schedule table using those data. When a user clicks on a schedule from schedule table it will route into a new page with additional information of a conference (Speaker details) and a sidebar which is rearrangeable by dragging and dropping! Every component is tested and mobile responsible.</p>
-<p style=" color:orange">"Please read the <i><a style="color:orange; text-decoration: underline;" href="#instruction">instructions</a></i> first"</p>
+<p style=" color:orange">"Please read the <i><a href="#instruction" style="color:orange; text-decoration: underline;">instructions</a></i> first"</p>
 <br>
 <div>
 <h2>Table of Contents</h2>
@@ -96,12 +96,21 @@
   <h2>Dynamic Schedule Table</h2>
   <img src="./docs/ScheduleTable.jpg" width="100%"/>
   <a href="./components/ScheduleTable.jsx">
-    <p align="center"><b>Component Source Code</b>: /components/ScheduleTable.jsx</p>
+    <p align="center">Component Source Code: <b>/components/ScheduleTable.jsx</b></p>
   </a>
   <p align="justify">It receives 3 props table, times, headings. Table is a matrix of two dimensional array, times is an array of most left columns value which is the times of the conferences and headings is an array of top row values which is the names of days. First I had to fetch all the conferences data into the parent component of ScheduleTable component and then I had to find out all the times of the conferences and store it into a array(which is a set) then I had to sort it. Then, I initialized a two dimensional array based on the length of times array and the length of days array and fill it with null values. Then, I iterated the fetch return and mutated with each conference information on the matrix array based on its time and day. and passed it into ScheduleTable component as a prop. The ScheduleTable will firstly iterate the headings array as tables first row then it will iterate the table matrix for next rows but put the current indexed value of times array as a first column of each row then the rest of the elements of current indexed rows columns of that times conference data. If iterating element is null then the it won't render anything on the specific slot. Each conference has a link to the detail information page of that conference which is a dynamic page</p>
 </div>
 <br>
 <div id="sidebar">
   <h2>Sidebar with Drag and Drop</h2>
+  <img src="./docs/Sidebar.gif" width="100%"/>
+  <a href="./components/SideBar.jsx">
+    <p align="center">
+    Component Source Code: <b>/component/SideBar.jsx</b>
+    </p>
+  </a>
+  <p align="justify">
+
+  </p>
 </div>
 <!-- <h1 id="drag-n-drop">Drag and Drop</h1> -->
