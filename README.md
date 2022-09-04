@@ -103,7 +103,7 @@
 <br>
 <div id="sidebar">
   <h2>Sidebar with Drag and Drop</h2>
-  <img src="./docs/Sidebar.gif" width="600px"/>
+  <img src="./docs/Sidebar.jpg" width="100%"/>
   <a href="./components/SideBar.jsx">
     <p align="center">
     Component Source Code: <b>/component/SideBar.jsx</b>
