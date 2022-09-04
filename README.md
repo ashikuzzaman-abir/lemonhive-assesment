@@ -103,14 +103,14 @@
 <br>
 <div id="sidebar">
   <h2>Sidebar with Drag and Drop</h2>
-  <img src="./docs/Sidebar.gif" width="100%"/>
+  <img src="./docs/Sidebar.gif" width="600px"/>
   <a href="./components/SideBar.jsx">
     <p align="center">
     Component Source Code: <b>/component/SideBar.jsx</b>
     </p>
   </a>
   <p align="justify">
-
+    This sidebar is implemented using the react-beautiful-dnd library. 
   </p>
 </div>
 <!-- <h1 id="drag-n-drop">Drag and Drop</h1> -->
