@@ -33,6 +33,9 @@
     Sidebar With Drag and Drop
   </a>
   </li>
+  <li>
+    <a href="#jest-error-solve">Solve Jest Error</a>
+  </li>
 </ul>
 </div>
 <br>
@@ -44,6 +47,7 @@
     <li>Change terminal working directory into project directory</li>
     <li>Run "npm install" to install all the dependencies locally </li>
     <li>Run "npm run test" to turn on Jest test environment and view the test results</li>
+    <li>If "npm run test" throws any error on terminal view <a href="#jest-error-solve">Solve Jest Error</a></li>
     <li>Run "npm run dev" to open Next.js development server on port 3000</li>
     <li>Open Mozila Firefox browser or Google Chrome browser and visit <a href="http://localhost:3000">http://localhost:3000</a></li>
     <li>I've already live hosted the project on Vercel, you can visit it here: <a href="https://lemonhive-assesment.vercel.app">https://lemonhive-assesment.vercel.app</a></li>
@@ -129,5 +133,11 @@
   <p align="justify">
     This sidebar is implemented using the react-beautiful-dnd library. I've implemented custom logic to rearrange the navigation smoothly. You can use drag and drop feature while grabbing each children most left icon and make it active by clicking on it
   </p>
+</div>
+<br>
+<div id="jest-error-solve">
+  <h2>Solve Jest Error</h2>
+  <img src="./docs/jestErrorSolve.jpg" width="100%"/>
+  <p align="justify">If "npm run test" fires these errors on terminal just goto /node_modules/parse5/ and open package.json file and delete "type": "module" on line 3. Now re run npm run test, it will resolve the error.</p>
 </div>
 <!-- <h1 id="drag-n-drop">Drag and Drop</h1> -->
