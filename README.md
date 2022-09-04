@@ -1,4 +1,4 @@
-<img src="https://media-exp1.licdn.com/dms/image/C561BAQForgdntuiGoQ/company-background_10000/0/1587974137322?e=2159024400&v=beta&t=Jj8LPMifZMdCYt_Z9M6k3bTOgcVdxwGjfyqdmHnqP5w" style="width: 100%;"> </img>
+<!-- <img src="https://media-exp1.licdn.com/dms/image/C561BAQForgdntuiGoQ/company-background_10000/0/1587974137322?e=2159024400&v=beta&t=Jj8LPMifZMdCYt_Z9M6k3bTOgcVdxwGjfyqdmHnqP5w" style="width: 100%;"> </img> -->
 
 <h1 align="center">Lemon Hive React-NextJs-Graphql Assesment</h1>
 <p align="justify">Welcome, here I've set up a project from scratch with create-next-app. My task was to implement a UI with core CSS or TailwindCSS, fetch data from GraphQL API and construct a dynamic schedule table using those data. When a user clicks on a schedule from schedule table it will route into a new page with additional information of a conference (Speaker details) and a sidebar which is rearrangeable by dragging and dropping! Every component is tested and mobile responsible.</p>
@@ -24,8 +24,8 @@
     <a href="#schedule-table">Dynamic Schedule Table</a>
   </li>
   <li>
-  <a href="#drag-n-drop">
-    Drag-n-drop
+  <a href="#sidebar">
+    Sidebar With Drag and Drop
   </a>
   </li>
 </ul>
@@ -40,7 +40,7 @@
     <li>Run "npm install" to install all the dependencies locally </li>
     <li>Run "npm run test" to turn on Jest test environment and view the test results</li>
     <li>Run "npm run dev" to turn on Next.js development server</li>
-    <li>Open Mozila Firefox browser or Google Chrome Browser and visit <a href="http://localhost:3000">http://localhost:3000</a></li>
+    <li>Open Mozila Firefox browser or Google Chrome browser and visit <a href="http://localhost:3000">http://localhost:3000</a></li>
     <li>I've already live hosted the project on Vercel, you can visit it here: <a href="https://lemonhive-assesment.vercel.app">https://lemonhive-assesment.vercel.app</a></li>
   </ul>
 </div>
@@ -95,7 +95,11 @@
 <div id="schedule-table">
   <h2>Dynamic Schedule Table</h2>
   <img src="./docs/ScheduleTable.jpg" width="100%"/>
-  <p align="center"><b>Component</b> -> /components/ScheduleTable.jsx</p>
-  <p></p>
+  <p align="center"><b>Component Source Code</b>: /components/ScheduleTable.jsx</p>
+  <p align="justify">It receives 3 props table, times, headings. Table is a matrix of two dimensional array, times is an array of most left columns value which is the times of the conferences and headings is an array of top row values which is the names of days. First I had to fetch all the conferences data into the parent component of ScheduleTable component and then I had to find out all the times of the conferences and store it into a array(which is a set) then I had to sort it. Then, I initialized a two dimensional array based on the length of times array and the length of days array and fill it with null values. Then, I iterated the fetch return and mutated with each conference information on the matrix array based on its time and day. and passed it into ScheduleTable component as a prop. The ScheduleTable will firstly iterate the headings array as tables first row then it will iterate the table matrix for next rows but put the current indexed value of times array as a first column of each row then the rest of the elements of current indexed rows columns of that times conference data. If iterating element is null then the it won't render anything on the specific slot. Each conference has a link to the detail information page of that conference which is a dynamic page</p>
+</div>
+<br>
+<div id="sidebar">
+  <h2>Sidebar with Drag and Drop</h2>
 </div>
 <!-- <h1 id="drag-n-drop">Drag and Drop</h1> -->
